@@ -1,0 +1,344 @@
+/*css du header-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);*/
+
+body {
+  width: 100%;
+  margin: auto;
+  min-width: 600px;
+  max-width: 6000px;
+}
+
+.titre1 {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 5%;
+}
+
+li {
+  text-decoration: none;
+  font-size: 19px;
+  color: rgb(246, 247, 248);
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #00a2fb;
+}
+
+.titre-header {
+  padding-top: 10px;
+  background-color: #eff0f3;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+  background-color: rgb(10, 8, 138);
+}
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: rgb(10, 8, 138);
+}
+.navbar li {
+  height: auto;
+  width: 317.1px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #03224c;
+}
+.navbar a {
+  padding: 18px 0;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar li:hover,
+a:hover {
+  background-color: #444444;
+}
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar li ul li {
+  background-color: #444444;
+}
+.navbar li ul li a {
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
+  border-top: 1px solid #c9d4d8;
+  border-bottom: 1px solid #444444;
+}
+.navbar li ul li a:hover {
+  background-color: #a3a1a1;
+}
+
+/*css fansite de l'acceuil*/
+.texte-accueil {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1%;
+  width: 1900px;
+  height: 781px;
+}
+
+.coté-gauche {
+  padding-top: 12%;
+  font-size: 200%;
+  max-width: 50%;
+  margin-left: 3%;
+}
+
+.grande-image {
+  padding-left: 20%;
+}
+
+.titre-articles {
+  font-size: 600%;
+  padding-top: 6%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.art {
+  font-size: 150%;
+  width: 550px;
+  height: 300%;
+  border-radius: 10px;
+  border: solid 6px #03224c;
+  padding: 10px;
+}
+
+.titre-galerie {
+  text-align: center;
+  font-size: 600%;
+  padding-top: 4%;
+}
+
+.Galeries {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*css du fansite5 formulaire contact*/
+
+.Devis {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+.Davis {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+h5 {
+  font-size: 200%;
+}
+
+form div {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+form div > input,
+form div > select,
+form div > textarea {
+  background: #00a2fb;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+form div > input,
+form div > select {
+  height: 50px;
+  padding-left: 10px;
+}
+
+form div > textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder,
+form div > textarea::placeholder {
+  color: white;
+}
+
+form div > select:invalid {
+  color: white;
+}
+
+form div > select option {
+  background: white;
+}
+
+form div:last-child {
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  background: white;
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #303030;
+  justify-content: center;
+}
+
+/*css du fansite3 evenement*/
+
+.passe {
+  width: 850px;
+  height: 450px;
+}
+
+.droite {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.centre {
+  padding-top: 10%;
+  font-size: 150%;
+}
+
+/* CSS du fansite2 actualité*/
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titre {
+  font-size: 40px;
+}
+
+#actu1 {
+  font-size: 40px;
+}
+
+#actu2 {
+  font-size: 40px;
+}
+
+#actu3 {
+  font-size: 40px;
+}
+
+.sous-titre {
+  font-style: italic;
+  color: grey;
+}
+
+.texte {
+  font-size: 150%;
+  text-align: justify;
+  max-width: 50%;
+}
+
+/* Css du fansite8 page galerie photos & vidéos*/
+
+.photos-galerie {
+  width: 500px;
+  height: 300px;
+  flex-wrap: wrap;
+  padding-left: 5%;
+}
+
+iframe{padding-left: 35%;
+padding-right: 35%;}
+
+/* Css du fansite4 page réalisations*/
+
+.photo-realisations {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CSS du footer*/
+
+.footer-dark {
+  padding: 50px 0;
+  color: #ffffff;
+  background-image: url("https://zupimages.net/up/21/42/ugzo.png");
+  background-size: cover;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.copyright {
+  opacity: 0.9;
+  font-size: 12px;
+  padding-top: 10%;
+  padding-left: 80%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  text-align: 5%;
+}
+
+/*css du bouton retour en haut*/
+
+.haut-de-page {
+  bottom: 10px;
+  padding-top: 5%;
+  position: relative;
+  left: 95%;
+  width: 0px;
+}
